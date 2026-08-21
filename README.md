@@ -27,10 +27,9 @@ SDK 按功能模块划分，便于开发者快速定位：
 
 ## 快速开始 (Quick Start)
 
-1. **环境搭建**：下载并安装 `00 开发环境IDE` 中推荐的编译器与调试器驱动。
-2. **导入工程**：打开 `06 代码示例` 中的 `LoRaWAN_ClassA` 工程，编译并烧录至开发板。
-3. **修改参数**：在 `main.c` 中修改 LoRa 频段、扩频因子、发射功率等参数。
-4. **调试运行**：使用串口助手观察日志，确认节点成功入网并发送数据。
+1. **环境搭建**：下载并安装 `04 测试工具` 中的烧录工具和串口助手。
+2. **烧录程序**：打开 烧录工具, 通过工具将`06 代码示例` 中的文件 ，烧录至开发板。
+3. **调试运行**：烧录完成后重启开发板，使用串口助手互发数据, 验证开发板功能。
 
 ## 二次开发注意事项
 
@@ -39,11 +38,10 @@ SDK 按功能模块划分，便于开发者快速定位：
 
 ## 资源下载
 
-- **SDK 最新版**：[点击下载](https://github.com/daxia-longque/daxia-lora-sdk)
+- **sdk 最新版**：[点击下载](https://github.com/daxia-longque/daxia-lora-sdk)
 
 ## 社区与支持
 
-- **GitHub Issues**：遇到 Bug 请在上方提交 Issue
 - **技术支持邮箱**：[daxia-longque@szdx-smart.com](mailto:daxia-longque@szdx-smart.com)
 - **WhatsApp**：+86 1830660765
 - **官方网站**：[www.szdx-smart.com](https://www.szdx-smart.com)
